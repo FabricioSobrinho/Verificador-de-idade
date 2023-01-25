@@ -1,0 +1,35 @@
+body { background: rgb(101, 101, 228);
+    font: normal 15pt arial;;
+}
+
+header { color: white;
+text-align: center;
+} 
+
+section { background: white;
+border-radius: 10px;
+padding: 15px;
+width: 500px;
+margin: auto;
+box-shadow: 5px 5px 10px rgb(53, 52, 52);
+} 
+
+footer { color: white;
+text-align: center;
+}
+
+button { /*configurações personaliadas para um botão*/
+    position: center;
+    border: none;
+    transition: .4s ease-in;
+z-index: 1;
+margin-left: 170px;
+height: 35px;
+width: 150px;
+background: rgb(71, 113, 219);
+margin-top:auto;
+}
+
+button:hover {
+    box-shadow: inset -10.5em 0 0 0 #2f47a5, inset 10.5em 0 0 0 #2f47a5; 
+} 

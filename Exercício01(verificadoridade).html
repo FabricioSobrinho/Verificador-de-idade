@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>idade</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+<h1>Verificador de idade</h1>
+    </header>
+    
+    <section> 
+<div> <!--div 1 fará a coleta de dados-->
+<p>Ano de nascimento: 
+    <input type="number" name="thi" id="thi" min="0"> <!--o 'min' define o valor minimo aceitavel-->
+</p>
+<p> <!--subtitulo para a exibição da seleção de sexo-->
+    Sexo: 
+    <input type="radio" name="sexm" id="masc" > <!--caixa de seleção por ponto para a escolha-->
+    <label for="masc">Masculino</label> <!--label para exibir o texto-->
+    <input type="radio" name="sexm" id="fem" >  <!--caixa de seleção por ponto para a escolha-->
+    <!--!!!!!as caixas devem ter o mesmo id para não ser possivel selecionar ambar -->
+    <label for="fem">Feminino</label>
+</p>
+<p> <!--outro subtitulo para organização-->
+    <button onclick="verificar()"> Verificar</button> <!--botão que fará a açao-->
+</p>
+</div>
+
+<div id="res"> <!--div 2 exibe o resultado -->
+Preencha os dados e veja o resultado
+</div>
+    </section>
+ <footer>
+<p>&copy;CopyBricio</p>
+ </footer>
+<script src="script.js"></script>
+
+</body>
+</html>
